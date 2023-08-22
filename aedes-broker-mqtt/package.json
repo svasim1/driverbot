@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "aedes": "^0.49.0",
+    "websocket-stream": "^5.5.2"
+  }
+}

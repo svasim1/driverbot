@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Driverbot Controls</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="index.js" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Console:</h1>
+      <div id="consoleDiv">
+        <pre id="console"></pre>
+      </div>
+
+      <h1>Driverbot Controls</h1>
+      <div id="stats">
+        <span>Current speed: </span> <span id="currentSpeed"></span><br />
+        <span>Current direction: </span> <span id="currentDirection"></span>
+        <h2 class="control-heading">Control the Car:</h2>
+
+        <p class="control-instructions">
+          Use the following keys to control the car:
+        </p>
+        <ul class="control-list">
+          <li><strong>W:</strong> Move forward</li>
+          <li><strong>A:</strong> Move left</li>
+          <li><strong>S:</strong> Move backward</li>
+          <li><strong>D:</strong> Move right</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
